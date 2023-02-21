@@ -50,6 +50,7 @@
 .nav-menu {
   padding: 0;
   display: block;
+  transition: all .3s ease-in-out;
 }
 .nav-menu * {
   margin: 0;
@@ -59,6 +60,7 @@
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
+  transition: all .3s ease-in-out;
 }
 .nav-menu a,
 .nav-menu a:focus {
@@ -75,24 +77,29 @@
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
+  transition: all .3s ease-in-out;
 }
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 20px;
   margin-left: 5px;
+  transition: all .3s ease-in-out;
 }
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
   color: #45505b;
+  transition: all .3s ease-in-out;
 }
 @media (min-width: 992px) {
   .nav-menu a,
   .nav-menu a:focus {
     width: 56px;
+    transition: all .3s ease-in-out;
   }
   .nav-menu a span,
   .nav-menu a:focus span {
+    transition: all .3s ease-in-out;
     display: none;
     color: #fff;
   }
@@ -103,21 +110,25 @@
 .nav-menu li:hover > a {
   color: #fff;
   background: #0563bb;
+  transition: all .3s ease-in-out;
 }
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover > a span {
+  transition: all .3s ease-in-out;
   color: #fff;
 }
 .nav-menu a:hover,
 .nav-menu li:hover > a {
+  transition: all .3s ease-in-out;
   width: 100%;
   color: #fff;
 }
 .nav-menu a:hover span,
 .nav-menu li:hover > a span {
   display: block;
+  transition: all .3s ease-in-out;
 }
 
 /**
