@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Lessons
+--------------------------------------------------------------*/
+.lessons{
+  background-image: url(../img/lessons.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+.lessons:before {
+  content: "";
+  background: rgb(5 13 24 / 20%);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  height: 100%;
+}

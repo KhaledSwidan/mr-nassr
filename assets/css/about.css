@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+.about i.bi.bi-file-earmark-person {
+  color: #0563bb;
+}
+.about img {
+  border-radius: 1.3rem;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #ddd;
+  border-radius: 0.2rem;
+}
+.about .content ul strong {
+  margin-right: 5px;
+}
+.about .content ul li span{
+  margin-right: 15px;
+}
+.about .content ul i {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+.about .content p:last-child {
+  margin-bottom: 0;
+}

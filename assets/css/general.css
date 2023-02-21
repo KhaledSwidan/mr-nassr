@@ -1,0 +1,118 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  color: #272829;
+}
+a {
+  color: #0563bb;
+  text-decoration: none;
+}
+a:hover {
+  color: #067ded;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 9999;
+  background-color: #0563bb;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top:hover {
+  background: #0678e3;
+  color: #fff;
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+@media (max-width: 576px) {
+  .back-to-top {
+    bottom: 60px;
+  }
+}
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #0563bb;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1s linear infinite;
+}
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+/*--------------------------------------------------------------
+# More button
+--------------------------------------------------------------*/
+.more-btn {
+  display: inline-block;
+  background: rgb(5 99 187);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  font-weight: 900;
+}
+.more-btn i {
+  font-size: 14px;
+  transition: all 0.4s ease-in-out;
+}
+.more-btn:hover {
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+}
+.more-btn:hover i {
+  color: #fff;
+  padding-left: 20px;
+  transition: all 0.4s ease-in-out;
+  margin-right: 23px;
+}

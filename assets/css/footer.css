@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  padding: 0;
+  font-size: 14px;
+  background: #040b14;
+}
+#footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+#footer .credits a {
+  color: #800080;
+  transition: 0.3s;
+  font-weight: 700;
+}
+#footer .credits a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-nav {
+  background-color: rgb(4 11 20 / 93%);
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: none;
+  z-index: 1;
+}
+.footer-nav-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+.footer-nav-box a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.footer-nav-box a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 576px) {
+  .footer-nav {
+    display: block;
+  }
+}
